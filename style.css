@@ -1,3 +1,68 @@
 body {
     font-family: Roboto;
+    display: flex;
+    margin: 0px;
+    min-height: 100vh;
+
+    flex-direction: column;
+}
+
+/* ====================================================================== */
+
+.header {
+    background-color: #233144;
+    height: 64px;
+    padding: 0px 200px;
+
+    display: flex;
+    align-items: center;
+    gap: 24px;
+}
+
+.logo {
+    font-size: 24px;
+    font-weight: bolder;
+}
+
+.link-one {
+    margin-left: auto;
+}
+
+/* ====================================================================== */
+
+.content {
+    flex: 1;
+    display: flex;
+    flex-direction: column;
+}
+
+.main {
+    background-color: #1F2937;
+    height: 600px;
+}
+
+.info {
+    background-color: white;
+}
+
+.quote {
+    background-color: #E5E7EB;
+}
+
+.sign-up {
+    background-color: white;
+}
+
+/* ====================================================================== */
+
+.footer {
+    background-color: #283950;
+    height: 100px;
+}
+
+/* ====================================================================== */
+
+a {
+    text-decoration: none;
+    color: white;
 }
